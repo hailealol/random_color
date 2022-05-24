@@ -1,0 +1,43 @@
+body {
+    transition: 1s;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 40px;
+}
+
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hex {
+    display: block;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+#genBtn {
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    opacity: 0.5;
+    color: #ffffff;
+    background: #a0a0a0;
+    transition: 1s;
+}
+
+#genBtn:hover {
+    opacity: 1;
+}
